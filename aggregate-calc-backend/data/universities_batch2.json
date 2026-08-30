@@ -1,0 +1,142 @@
+[
+  {
+    "name": "Federal University Birnin Kebbi",
+    "short_name": "FUBK",
+    "state": "Kebbi",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fubk.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Gusau",
+    "short_name": "FUGUS",
+    "state": "Zamfara",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fugusau.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Gashua",
+    "short_name": "FUGASHUA",
+    "state": "Yobe",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fugashua.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Ndifu-Alike",
+    "short_name": "FUNAI",
+    "state": "Ebonyi",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://funai.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Oye-Ekiti",
+    "short_name": "FUOYE",
+    "state": "Ekiti",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fuoye.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Health Sciences Azare",
+    "short_name": "FUHSA",
+    "state": "Bauchi",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fuhsa.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Health Sciences Ila-Orangun",
+    "short_name": "FUHSI",
+    "state": "Osun",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fuhsi.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Health Sciences Otukpo",
+    "short_name": "FUHSO",
+    "state": "Benue",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fuhso.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Nigerian Maritime University",
+    "short_name": "NMU",
+    "state": "Delta",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://nmu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Air Force Institute of Technology",
+    "short_name": "AFIT",
+    "state": "Kaduna",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://afit.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Nigerian Defence Academy",
+    "short_name": "NDA",
+    "state": "Kaduna",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://nda.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Transportation Daura",
+    "short_name": "FUTD",
+    "state": "Katsina",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://futd.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Agriculture Zuru",
+    "short_name": "FUAZ",
+    "state": "Kebbi",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Medical Sciences Teaching Hospital Campus",
+    "short_name": "FUMS",
+    "state": "Plateau",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "",
+    "logo_url": null,
+    "is_active": true
+  }
+]

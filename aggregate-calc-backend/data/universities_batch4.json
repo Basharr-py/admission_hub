@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Osun State University",
+    "short_name": "UNIOSUN",
+    "state": "Osun",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://www.uniosun.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Tai Solarin University of Education",
+    "short_name": "TASUED",
+    "state": "Ogun",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://tasued.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Chukwuemeka Odumegwu Ojukwu University",
+    "short_name": "COOU",
+    "state": "Anambra",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://coou.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Kwara State University",
+    "short_name": "KWASU",
+    "state": "Kwara",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://kwasu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Ladoke Akintola University of Technology",
+    "short_name": "LAUTECH",
+    "state": "Oyo",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://lautech.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Ondo State University of Science and Technology",
+    "short_name": "OAUSTECH",
+    "state": "Ondo",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://oaustech.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Nasarawa State University",
+    "short_name": "NSUK",
+    "state": "Nasarawa",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://nsuk.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Borno State University",
+    "short_name": "BOSU",
+    "state": "Borno",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://bosu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Kebbi State University of Science and Technology",
+    "short_name": "KSUSTA",
+    "state": "Kebbi",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://ksusta.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Kano State University of Science and Technology",
+    "short_name": "KUST",
+    "state": "Kano",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://kustwudil.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Sule Lamido University",
+    "short_name": "SLU",
+    "state": "Jigawa",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://slu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Bauchi State University",
+    "short_name": "BASUG",
+    "state": "Bauchi",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://basug.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Sokoto State University",
+    "short_name": "SSU",
+    "state": "Sokoto",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://ssu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Zamfara State University",
+    "short_name": "ZAMSUT",
+    "state": "Zamfara",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://zamsut.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Niger Delta University",
+    "short_name": "NDU",
+    "state": "Bayelsa",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://ndu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Ignatius Ajuru University of Education",
+    "short_name": "IAUE",
+    "state": "Rivers",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://iaue.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Emmanuel Alayande University of Education",
+    "short_name": "EAUED",
+    "state": "Oyo",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://eauedoyo.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Africa",
+    "short_name": "UAT",
+    "state": "Bayelsa",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://uat.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Confluence University of Science and Technology",
+    "short_name": "CUSTECH",
+    "state": "Kogi",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://custech.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Delta",
+    "short_name": "UNIDEL",
+    "state": "Delta",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://unidel.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  }
+]

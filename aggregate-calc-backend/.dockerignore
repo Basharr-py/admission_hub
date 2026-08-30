@@ -1,0 +1,10 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+aggregate_db.sql
+courses.json
+docker_run_help.txt
+scripts
+test_connection.py
+data

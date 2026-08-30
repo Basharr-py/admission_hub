@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Ahmadu Bello University",
+    "short_name": "ABU",
+    "state": "Kaduna",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://abu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Nigeria",
+    "short_name": "UNN",
+    "state": "Enugu",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://unn.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Benin",
+    "short_name": "UNIBEN",
+    "state": "Edo",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://uniben.edu",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Port Harcourt",
+    "short_name": "UNIPORT",
+    "state": "Rivers",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://uniport.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Calabar",
+    "short_name": "UNICAL",
+    "state": "Cross River",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://unical.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Bayero University Kano",
+    "short_name": "BUK",
+    "state": "Kano",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://buk.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Nnamdi Azikiwe University",
+    "short_name": "UNIZIK",
+    "state": "Anambra",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://unizik.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Abuja",
+    "short_name": "UNIABUJA",
+    "state": "FCT",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://uniabuja.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Technology, Akure",
+    "short_name": "FUTA",
+    "state": "Ondo",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://futa.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Technology, Minna",
+    "short_name": "FUTMINNA",
+    "state": "Niger",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://futminna.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Technology, Owerri",
+    "short_name": "FUTO",
+    "state": "Imo",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://futo.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Agriculture, Abeokuta",
+    "short_name": "FUNAAB",
+    "state": "Ogun",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://funaab.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Michael Okpara University of Agriculture",
+    "short_name": "MOUAU",
+    "state": "Abia",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://mouau.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Lokoja",
+    "short_name": "FULOKOJA",
+    "state": "Kogi",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fulokoja.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Otuoke",
+    "short_name": "FUOTUOKE",
+    "state": "Bayelsa",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fuotuoke.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Dutse",
+    "short_name": "FUD",
+    "state": "Jigawa",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fud.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Dutsin-Ma",
+    "short_name": "FUDMA",
+    "state": "Katsina",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fudutsinma.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Kashere",
+    "short_name": "FUKASHERE",
+    "state": "Gombe",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fukashere.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Lafia",
+    "short_name": "FULAFIA",
+    "state": "Nasarawa",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fulafia.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University Wukari",
+    "short_name": "FUWUKARI",
+    "state": "Taraba",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fuwukari.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  }
+]

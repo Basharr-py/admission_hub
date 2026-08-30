@@ -1,0 +1,202 @@
+[
+  {
+    "name": "University of Uyo",
+    "short_name": "UNIUYO",
+    "state": "Akwa Ibom",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://uniuyo.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Federal University of Petroleum Resources, Effurun",
+    "short_name": "FUPRE",
+    "state": "Delta",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://fupre.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Modibbo Adama University",
+    "short_name": "MAU",
+    "state": "Adamawa",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://mau.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Alex Ekwueme Federal University, Ndufu-Alike",
+    "short_name": "AE-FUNAI",
+    "state": "Ebonyi",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://funai.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Maiduguri",
+    "short_name": "UNIMAID",
+    "state": "Borno",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://unimaid.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Nigerian Army University Biu",
+    "short_name": "NAUB",
+    "state": "Borno",
+    "ownership": "FEDERAL",
+    "screening_type": "POST_UTME",
+    "website": "https://naub.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Cross River State",
+    "short_name": "UNICROSS",
+    "state": "Cross River",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://unicross.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Dennis Osadebay University",
+    "short_name": "DOU",
+    "state": "Delta",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://dou.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Eastern Palm University",
+    "short_name": "EPU",
+    "state": "Imo",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Borno State University",
+    "short_name": "BOSU",
+    "state": "Borno",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://bosu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Oyo State College of Agriculture and Technology",
+    "short_name": "OYSCATECH",
+    "state": "Oyo",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://oyscatech.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Moshood Abiola University of Science and Technology",
+    "short_name": "MAUSTECH",
+    "state": "Ogun",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Yusuf Maitama Sule University Kano",
+    "short_name": "YUMSUK",
+    "state": "Kano",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://yumsuk.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Prince Abubakar Audu University",
+    "short_name": "PAAU",
+    "state": "Kogi",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://paau.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Ondo State University of Medical Sciences",
+    "short_name": "UNIMED",
+    "state": "Ondo",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://unimed.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Bayelsa Medical University",
+    "short_name": "BMU",
+    "state": "Bayelsa",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://bmu.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Ilesa",
+    "short_name": "UNILESA",
+    "state": "Osun",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "https://unilesa.edu.ng",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Shehu Shagari University of Education",
+    "short_name": "SSUES",
+    "state": "Sokoto",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "Zamfara State College of Arts and Science",
+    "short_name": "ZACAS",
+    "state": "Zamfara",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "",
+    "logo_url": null,
+    "is_active": true
+  },
+  {
+    "name": "University of Medical Sciences, Kebbi",
+    "short_name": "KBMU",
+    "state": "Kebbi",
+    "ownership": "STATE",
+    "screening_type": "POST_UTME",
+    "website": "",
+    "logo_url": null,
+    "is_active": true
+  }
+]

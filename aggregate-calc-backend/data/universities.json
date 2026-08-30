@@ -1,0 +1,932 @@
+[
+    {
+        "name": "Abia State University",
+        "short_name": "ABSU",
+        "state": "Abia",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://abiastateuniversity.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Adamawa State University",
+        "short_name": "ADSU",
+        "state": "Adamawa",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://adsu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Adekunle Ajasin University",
+        "short_name": "AAUA",
+        "state": "Ondo",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://aaua.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Ahmadu Bello University",
+        "short_name": "ABU",
+        "state": "Kaduna",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://abu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Air Force Institute of Technology",
+        "short_name": "AFIT",
+        "state": "Kaduna",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://afit.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Akwa Ibom State University",
+        "short_name": "AKSU",
+        "state": "Akwa Ibom",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://aksu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Alex Ekwueme Federal University, Ndufu-Alike",
+        "short_name": "AE-FUNAI",
+        "state": "Ebonyi",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://funai.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Bauchi State University",
+        "short_name": "BASUG",
+        "state": "Bauchi",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://basug.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Bayelsa Medical University",
+        "short_name": "BMU",
+        "state": "Bayelsa",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://bmu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Bayero University Kano",
+        "short_name": "BUK",
+        "state": "Kano",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://buk.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Benue State University",
+        "short_name": "BSUM",
+        "state": "Benue",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://bsum.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Borno State University",
+        "short_name": "BOSU",
+        "state": "Borno",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://bosu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Chukwuemeka Odumegwu Ojukwu University",
+        "short_name": "COOU",
+        "state": "Anambra",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://coou.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Confluence University of Science and Technology",
+        "short_name": "CUSTECH",
+        "state": "Kogi",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://custech.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Cross River University of Technology",
+        "short_name": "CRUTECH",
+        "state": "Cross River",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://crutech.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Delta State University",
+        "short_name": "DELSU",
+        "state": "Delta",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://delsu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Dennis Osadebay University",
+        "short_name": "DOU",
+        "state": "Delta",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://dou.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Eastern Palm University",
+        "short_name": "EPU",
+        "state": "Imo",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Ebonyi State University",
+        "short_name": "EBSU",
+        "state": "Ebonyi",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://ebsu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Ekiti State University",
+        "short_name": "EKSU",
+        "state": "Ekiti",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://eksu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Emmanuel Alayande University of Education",
+        "short_name": "EAUED",
+        "state": "Oyo",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://eauedoyo.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Enugu State University of Science and Technology",
+        "short_name": "ESUT",
+        "state": "Enugu",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://esut.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Birnin Kebbi",
+        "short_name": "FUBK",
+        "state": "Kebbi",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fubk.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Dutse",
+        "short_name": "FUD",
+        "state": "Jigawa",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fud.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Dutsin-Ma",
+        "short_name": "FUDMA",
+        "state": "Katsina",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fudutsinma.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Gashua",
+        "short_name": "FUGASHUA",
+        "state": "Yobe",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fugashua.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Gusau",
+        "short_name": "FUGUS",
+        "state": "Zamfara",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fugusau.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Kashere",
+        "short_name": "FUKASHERE",
+        "state": "Gombe",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fukashere.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Lafia",
+        "short_name": "FULAFIA",
+        "state": "Nasarawa",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fulafia.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Lokoja",
+        "short_name": "FULOKOJA",
+        "state": "Kogi",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fulokoja.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Ndifu-Alike",
+        "short_name": "FUNAI",
+        "state": "Ebonyi",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://funai.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Otuoke",
+        "short_name": "FUOTUOKE",
+        "state": "Bayelsa",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fuotuoke.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Oye-Ekiti",
+        "short_name": "FUOYE",
+        "state": "Ekiti",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fuoye.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University Wukari",
+        "short_name": "FUWUKARI",
+        "state": "Taraba",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fuwukari.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Agriculture Zuru",
+        "short_name": "FUAZ",
+        "state": "Kebbi",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Agriculture, Abeokuta",
+        "short_name": "FUNAAB",
+        "state": "Ogun",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://funaab.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Health Sciences Azare",
+        "short_name": "FUHSA",
+        "state": "Bauchi",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fuhsa.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Health Sciences Ila-Orangun",
+        "short_name": "FUHSI",
+        "state": "Osun",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fuhsi.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Health Sciences Otukpo",
+        "short_name": "FUHSO",
+        "state": "Benue",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fuhso.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Petroleum Resources, Effurun",
+        "short_name": "FUPRE",
+        "state": "Delta",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://fupre.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Technology, Akure",
+        "short_name": "FUTA",
+        "state": "Ondo",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://futa.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Technology, Minna",
+        "short_name": "FUTMINNA",
+        "state": "Niger",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://futminna.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Technology, Owerri",
+        "short_name": "FUTO",
+        "state": "Imo",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://futo.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Federal University of Transportation Daura",
+        "short_name": "FUTD",
+        "state": "Katsina",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://futd.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Gombe State University",
+        "short_name": "GSU",
+        "state": "Gombe",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://gsu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Ignatius Ajuru University of Education",
+        "short_name": "IAUE",
+        "state": "Rivers",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://iaue.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Imo State University",
+        "short_name": "IMSU",
+        "state": "Imo",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://imsu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Kaduna State University",
+        "short_name": "KASU",
+        "state": "Kaduna",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://kasu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Kano State University of Science and Technology",
+        "short_name": "KUST",
+        "state": "Kano",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://kustwudil.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Kebbi State University of Science and Technology",
+        "short_name": "KSUSTA",
+        "state": "Kebbi",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://ksusta.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Kogi State University",
+        "short_name": "KSU",
+        "state": "Kogi",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://ksu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Kwara State University",
+        "short_name": "KWASU",
+        "state": "Kwara",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://kwasu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Ladoke Akintola University of Technology",
+        "short_name": "LAUTECH",
+        "state": "Oyo",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://lautech.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Lagos State University",
+        "short_name": "LASU",
+        "state": "Lagos",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://lasu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Michael Okpara University of Agriculture",
+        "short_name": "MOUAU",
+        "state": "Abia",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://mouau.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Modibbo Adama University",
+        "short_name": "MAU",
+        "state": "Adamawa",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://mau.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Moshood Abiola University of Science and Technology",
+        "short_name": "MAUSTECH",
+        "state": "Ogun",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Nasarawa State University",
+        "short_name": "NSUK",
+        "state": "Nasarawa",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://nsuk.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Niger Delta University",
+        "short_name": "NDU",
+        "state": "Bayelsa",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://ndu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Nigerian Army University Biu",
+        "short_name": "NAUB",
+        "state": "Borno",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://naub.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Nigerian Defence Academy",
+        "short_name": "NDA",
+        "state": "Kaduna",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://nda.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Nigerian Maritime University",
+        "short_name": "NMU",
+        "state": "Delta",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://nmu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Nnamdi Azikiwe University",
+        "short_name": "UNIZIK",
+        "state": "Anambra",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://unizik.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Olabisi Onabanjo University",
+        "short_name": "OOU",
+        "state": "Ogun",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://oouagoiwoye.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Ondo State University of Medical Sciences",
+        "short_name": "UNIMED",
+        "state": "Ondo",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://unimed.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Ondo State University of Science and Technology",
+        "short_name": "OAUSTECH",
+        "state": "Ondo",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://oaustech.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Osun State University",
+        "short_name": "UNIOSUN",
+        "state": "Osun",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://www.uniosun.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Oyo State College of Agriculture and Technology",
+        "short_name": "OYSCATECH",
+        "state": "Oyo",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://oyscatech.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Plateau State University",
+        "short_name": "PLASU",
+        "state": "Plateau",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://plasu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Prince Abubakar Audu University",
+        "short_name": "PAAU",
+        "state": "Kogi",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://paau.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Rivers State University",
+        "short_name": "RSU",
+        "state": "Rivers",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://ust.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Shehu Shagari University of Education",
+        "short_name": "SSUES",
+        "state": "Sokoto",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Sokoto State University",
+        "short_name": "SSU",
+        "state": "Sokoto",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://ssu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Sule Lamido University",
+        "short_name": "SLU",
+        "state": "Jigawa",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://slu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Tai Solarin University of Education",
+        "short_name": "TASUED",
+        "state": "Ogun",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://tasued.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Taraba State University",
+        "short_name": "TSU",
+        "state": "Taraba",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://tsuniversity.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Abuja",
+        "short_name": "UNIABUJA",
+        "state": "FCT",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://uniabuja.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Africa",
+        "short_name": "UAT",
+        "state": "Bayelsa",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://uat.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Benin",
+        "short_name": "UNIBEN",
+        "state": "Edo",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://uniben.edu",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Calabar",
+        "short_name": "UNICAL",
+        "state": "Cross River",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://unical.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Cross River State",
+        "short_name": "UNICROSS",
+        "state": "Cross River",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://unicross.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Delta",
+        "short_name": "UNIDEL",
+        "state": "Delta",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://unidel.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Ilesa",
+        "short_name": "UNILESA",
+        "state": "Osun",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://unilesa.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Maiduguri",
+        "short_name": "UNIMAID",
+        "state": "Borno",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://unimaid.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Medical Sciences Teaching Hospital Campus",
+        "short_name": "FUMS",
+        "state": "Plateau",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Medical Sciences, Kebbi",
+        "short_name": "KBMU",
+        "state": "Kebbi",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Nigeria",
+        "short_name": "UNN",
+        "state": "Enugu",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://unn.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Port Harcourt",
+        "short_name": "UNIPORT",
+        "state": "Rivers",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://uniport.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "University of Uyo",
+        "short_name": "UNIUYO",
+        "state": "Akwa Ibom",
+        "ownership": "FEDERAL",
+        "screening_type": "POST_UTME",
+        "website": "https://uniuyo.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Yobe State University",
+        "short_name": "YSU",
+        "state": "Yobe",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://ysu.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Yusuf Maitama Sule University Kano",
+        "short_name": "YUMSUK",
+        "state": "Kano",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://yumsuk.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Zamfara State College of Arts and Science",
+        "short_name": "ZACAS",
+        "state": "Zamfara",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "",
+        "logo_url": null,
+        "is_active": true
+    },
+    {
+        "name": "Zamfara State University",
+        "short_name": "ZAMSUT",
+        "state": "Zamfara",
+        "ownership": "STATE",
+        "screening_type": "POST_UTME",
+        "website": "https://zamsut.edu.ng",
+        "logo_url": null,
+        "is_active": true
+    }
+]

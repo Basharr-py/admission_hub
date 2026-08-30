@@ -1,0 +1,156 @@
+/* Mobile-first: two panels stacked vertically by default, sit side by side
+   from 860px up. The highlighted "With AdmissionHub" panel keeps its
+   emphasis (border, glow, badge) at every width. */
+
+.section {
+  background: var(--color-card);
+  padding: 48px 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.heading {
+  margin-bottom: 28px;
+  max-width: 520px;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+  font-size: clamp(1.4rem, 4vw, 1.9rem);
+}
+
+/* ---------- Comparison grid ---------- */
+
+.compareGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.panel {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 22px 20px;
+}
+
+.panelHighlight {
+  background: var(--color-primary-soft);
+  border: 1.5px solid var(--color-primary);
+  box-shadow: var(--shadow-glow-primary);
+}
+
+.panelHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.panelHighlight .panelHeader {
+  border-bottom-color: rgba(37, 99, 235, 0.2);
+}
+
+.panelLabel {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.98rem;
+  color: var(--color-text-muted);
+}
+
+.panelLabelHighlight {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.98rem;
+  color: var(--color-primary);
+}
+
+.badge {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+  padding: 3px 9px;
+}
+
+.rowList {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.iconNo {
+  color: #ef4444;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.iconYes {
+  color: var(--color-accent);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.rowLabel {
+  display: block;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.86rem;
+  color: var(--color-text);
+  margin-bottom: 2px;
+}
+
+.rowText {
+  font-family: var(--font-body);
+  font-size: 0.83rem;
+  line-height: 1.5;
+  color: var(--color-text-muted);
+}
+
+/* ============================== 860px+ : side by side ============================== */
+@media (min-width: 860px) {
+  .section {
+    padding: 72px 0;
+  }
+
+  .heading {
+    margin-bottom: 40px;
+  }
+
+  .compareGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+}

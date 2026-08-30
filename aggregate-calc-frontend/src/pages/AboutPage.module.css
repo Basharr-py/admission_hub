@@ -1,0 +1,133 @@
+.hero {
+  background: var(--color-bg);
+  padding: 48px 0 8px;
+}
+
+.inner {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 14px;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
+  color: var(--color-text);
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  margin-bottom: 16px;
+  max-width: 620px;
+}
+
+.heroLead {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+  max-width: 560px;
+}
+
+.content {
+  background: var(--color-bg);
+  padding: 36px 0 64px;
+}
+
+.block {
+  margin-bottom: 36px;
+  max-width: 620px;
+}
+
+.blockTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--color-text);
+  margin-bottom: 14px;
+}
+
+.blockText {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: var(--color-text-muted);
+  margin-bottom: 12px;
+}
+
+.divider {
+  height: 1px;
+  max-width: 620px;
+  background: linear-gradient(90deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  opacity: 0.25;
+  margin: 0 0 36px;
+}
+
+.principles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 620px;
+  margin-bottom: 36px;
+}
+
+.principle {
+  border-left: 2px solid var(--color-primary);
+  padding-left: 16px;
+}
+
+.principleTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--color-text);
+  margin-bottom: 5px;
+}
+
+.principleText {
+  font-family: var(--font-body);
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--color-text-muted);
+}
+
+/* ============================== 600px+ : two-column principles ============================== */
+@media (min-width: 600px) {
+  .principles {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
+
+/* ============================== 980px+ : more vertical rhythm ============================== */
+@media (min-width: 980px) {
+  .hero {
+    padding: 72px 0 16px;
+  }
+
+  .content {
+    padding: 48px 0 96px;
+  }
+
+  .block {
+    margin-bottom: 48px;
+  }
+
+  .divider {
+    margin-bottom: 48px;
+  }
+
+  .principles {
+    margin-bottom: 48px;
+  }
+}

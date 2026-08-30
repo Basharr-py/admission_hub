@@ -1,0 +1,159 @@
+/* Mobile-first: vertical timeline (marker column + connecting line down the
+   left) by default. At 980px+ it rotates into a horizontal timeline, which
+   is why marker layout direction is overridden rather than rebuilt. */
+
+.section {
+  background: var(--color-bg);
+  padding: 48px 0;
+}
+
+.inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.heading {
+  margin-bottom: 32px;
+  max-width: 520px;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-text);
+  font-size: clamp(1.4rem, 4vw, 1.9rem);
+}
+
+/* ---------- Timeline: vertical by default ---------- */
+
+.timeline {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.step {
+  display: flex;
+  gap: 18px;
+}
+
+.stepMarker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.stepIconWrap {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-sm);
+}
+
+.connector {
+  width: 2px;
+  flex: 1;
+  min-height: 28px;
+  background: var(--color-border);
+  margin: 6px 0;
+}
+
+.stepContent {
+  padding-bottom: 28px;
+}
+
+.stepNum {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.stepTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--color-text);
+  margin-bottom: 6px;
+}
+
+.stepDescription {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--color-text-muted);
+  max-width: 320px;
+}
+
+/* ============================== 980px+ : horizontal timeline ============================== */
+@media (min-width: 980px) {
+  .section {
+    padding: 72px 0;
+  }
+
+  .heading {
+    margin-bottom: 44px;
+  }
+
+  .timeline {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .step {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+  }
+
+  .stepMarker {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+
+  .connector {
+    width: auto;
+    height: 2px;
+    flex: 1;
+    min-height: 0;
+    margin: 0 8px;
+  }
+
+  .stepContent {
+    padding-bottom: 0;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stepDescription {
+    max-width: 220px;
+  }
+}

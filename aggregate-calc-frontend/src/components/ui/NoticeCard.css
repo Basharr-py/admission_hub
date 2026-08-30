@@ -1,0 +1,16 @@
+.notice-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 18px;
+
+  border-radius: 12px;
+
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+
+  color: #1e3a8a;
+
+  line-height: 1.6;
+}

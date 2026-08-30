@@ -1,0 +1,107 @@
+.page {
+  background: var(--color-bg);
+  min-height: 60vh;
+}
+
+.inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+/* ---------- Hero ---------- */
+
+.heroSection {
+  padding: 32px 0 28px;
+}
+
+.backLink {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.84rem;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: color var(--duration-fast) var(--ease-standard);
+}
+
+.backLink:hover {
+  color: var(--color-primary);
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--color-text);
+  font-size: clamp(1.6rem, 4.5vw, 2.2rem);
+  margin-bottom: 10px;
+  max-width: 600px;
+}
+
+.subhead {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  max-width: 520px;
+}
+
+/* ---------- Grids: mobile-first, stacked by default ---------- */
+
+.topGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.bottomGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-bottom: 56px;
+}
+
+.errorMessage {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: #b91c1c;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: var(--radius-sm);
+  padding: 13px 16px;
+}
+
+/* ============================== 860px+ : two-column top grid ============================== */
+@media (min-width: 860px) {
+  .heroSection {
+    padding: 56px 0 36px;
+  }
+
+  .topGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .bottomGrid {
+    padding-bottom: 80px;
+  }
+}

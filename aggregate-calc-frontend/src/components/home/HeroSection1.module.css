@@ -1,0 +1,343 @@
+/* ==========================================================================
+   Mobile-first: base rules below target small screens. Desktop layout is
+   layered on top via min-width media queries, not the other way around —
+   this avoids the "shrink a desktop layout until it breaks" trap.
+   ========================================================================== */
+
+.hero {
+  background: var(--color-bg);
+  padding: 40px 0 56px;
+  overflow: hidden; /* guards against the floating badges causing scroll-x */
+}
+
+.inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ---------- Copy ---------- */
+
+.copy {
+  max-width: 640px;
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.12;
+  color: var(--color-text);
+  font-size: clamp(1.9rem, 6vw, 3.2rem);
+  margin-bottom: 18px;
+}
+
+.headlineAccent {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subhead {
+  font-family: var(--font-body);
+  font-size: clamp(0.98rem, 2.2vw, 1.12rem);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  margin-bottom: 28px;
+  max-width: 520px;
+}
+
+/* ---------- Buttons: full-width stack on mobile, inline from 480px ---------- */
+
+.buttonRow {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 36px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.98rem;
+  padding: 15px 24px; /* comfortable touch target */
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: transform var(--duration-fast) var(--ease-standard),
+    background var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard);
+  min-height: 48px;
+}
+
+.primaryBtn {
+  color: #ffffff;
+  background: var(--color-primary);
+  box-shadow: var(--shadow-glow-primary);
+}
+
+.primaryBtn:hover {
+  background: var(--color-primary-hover);
+  transform: translateY(-1px);
+}
+
+.secondaryBtn {
+  color: var(--color-text);
+  background: var(--color-card);
+  border: 1px solid var(--color-border-strong);
+}
+
+.secondaryBtn:hover {
+  border-color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+/* ---------- Stat cards: 1 col on very small, 3 tight cols once there's room ---------- */
+
+.statRow {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.statCard {
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: 16px 18px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  box-shadow: var(--shadow-sm);
+}
+
+.statValue {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  white-space: nowrap;
+}
+
+.statLabel {
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+}
+
+/* ---------- Browser mockup ---------- */
+
+.mockupWrap {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.browser {
+  width: 100%;
+  max-width: 420px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.browserBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 14px;
+  background: #f1f5f9;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.browserDots {
+  display: flex;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.browserDots span {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #cbd5e1;
+}
+
+.browserAddress {
+  flex: 1;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  padding: 5px 12px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.browserBody {
+  padding: 22px 20px 24px;
+}
+
+.mockField {
+  margin-bottom: 14px;
+}
+
+.mockLabel {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.76rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+
+.mockInput {
+  font-family: var(--font-mono);
+  font-size: 0.95rem;
+  color: var(--color-text);
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+}
+
+.mockButton {
+  margin-top: 18px;
+  text-align: center;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+}
+
+.mockResult {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-accent-soft);
+  border: 1px solid #a7f3d0;
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+}
+
+.mockResultLabel {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: #047857;
+}
+
+.mockResultValue {
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #047857;
+}
+
+/* ---------- Floating badges: decorative only, opt in from tablet width up ---------- */
+
+.floatBadge {
+  display: none;
+}
+
+/* ============================== 480px+ ============================== */
+@media (min-width: 480px) {
+  .buttonRow {
+    flex-direction: row;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    flex: 1;
+  }
+
+  .statRow {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .statCard {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+}
+
+/* ============================== 640px+ : reintroduce floating badges ============================== */
+@media (min-width: 640px) {
+  .floatBadge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    padding: 8px 14px;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--color-text);
+    box-shadow: var(--shadow-md);
+    white-space: nowrap;
+  }
+
+  .floatBadgeTop {
+    top: 6%;
+    left: -4%;
+  }
+
+  .floatBadgeBottom {
+    bottom: 10%;
+    right: -2%;
+  }
+
+  .floatBadgeStrong {
+    font-family: var(--font-mono);
+    color: var(--color-accent);
+    font-weight: 700;
+  }
+}
+
+/* ============================== 980px+ : two-column desktop layout ============================== */
+@media (min-width: 980px) {
+  .hero {
+    padding: 72px 0 96px;
+  }
+
+  .inner {
+    flex-direction: row;
+    align-items: center;
+    gap: 56px;
+  }
+
+  .copy {
+    flex: 1.05;
+  }
+
+  .mockupWrap {
+    flex: 0.95;
+  }
+
+  .statRow {
+    max-width: 460px;
+  }
+}
